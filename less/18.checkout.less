@@ -1,0 +1,83 @@
+
+/* 18.   Checkout
+--------------------------------------------------------------------------------*/
+
+.commerce-checkout {
+    .view-footer {
+        font-size: 20px;
+        color: #000;
+        padding: 20px;
+        border: 1px solid #efefef;
+        border-top: 0;
+    }
+    fieldset {
+        margin-bottom: 50px;
+        legend {
+            border: 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            .fieldset-legend {
+                font-family: @ra;
+                font-size: 24px;
+                color: #000;
+            }
+        }
+    }
+}
+.view-commerce-cart-summary {
+    margin-top: 20px;
+}
+.form-required {
+    color: #f00;
+}
+.customer_profile_billing {
+    .form-item {
+        margin-top: 10px;
+        label {
+            display: inline-block;
+            font-family: @ra;
+            font-size: 14px;
+            color: #000;
+            padding-bottom: 5px;
+        }
+        input {
+            display: block;
+            height: 42px;
+            background-color: #efefef;
+            border: 1px solid #dedede;
+            color: #555555;
+            padding: 0 20px;
+            font-family: @ra;
+            font-size: 11px;
+            text-transform: uppercase;
+            width: 100%;
+        }
+    }
+}
+.checkout-buttons {
+    margin-left: -5px;
+    margin-right: -5px;
+    input {
+        display: inline-block;
+        font-size: 11px;
+        color: #000;
+        text-align: center;
+        height: 35px;
+        line-height: 35px;
+        background: none;
+        cursor: pointer;
+        outline: none;
+        overflow: hidden;
+        border: 2px solid #000;
+        padding: 0 26px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 5px;
+        .transition(all, .3s, ease);
+        &:hover {
+            color: #fff;
+            background-color: @color;
+            border-color: @color;
+        }
+    }
+}

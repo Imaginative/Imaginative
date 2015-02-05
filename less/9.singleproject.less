@@ -1,0 +1,106 @@
+
+/* 9.   Single project
+--------------------------------------------------------------------------------*/
+
+.image-single-project {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.work-row {
+    overflow: hidden;
+    padding-top: 50px;
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+.more-work-section {
+    [class^="col-"],
+    [class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.single-project {
+    .work-item {
+        font-family: @ra;
+    }
+    .sidebar {
+        .client {
+            a {
+                font-family: @ra;
+                font-weight: 700;
+                font-size: 16px;
+                color: #4d4d4d;
+                &:hover {
+                    color: @color;
+                }
+            }
+        }
+        .what_we_did {
+            ul {
+                margin: 0;
+                li {
+                    margin: 0;
+                    list-style: none;
+                    padding: 7px 0;
+                    &:after {
+                        display: none;
+                    }
+                    a {
+                        font-family: @ra;
+                        font-size: 14px;
+                        color: #4d4d4d;
+                        line-height: 1.7em;
+                        text-indent: 0;
+                        .fa {
+                            margin-right: 10px;
+                            color: @color;
+                        }
+                    }
+                    &:hover {
+                        a {
+                            color: @color;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_categories {
+            ul {
+                font-family: @ra;
+                font-size: 14px;
+                color: #4d4d4d;
+                line-height: 1.7em;
+                margin: 0;
+                li {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    display: inline-block;
+                    border: 0;
+                    &:after {
+                        display: none;
+                    }
+                    a {
+                        color: #4d4d4d;
+                        text-indent: 0;
+                        &:hover {
+                            color: @color;
+                        }
+                    }
+                }
+            }
+        }
+        .share {
+            text-align: left;
+        }
+        .share_this {
+            a {
+                margin: 4px 30px 4px 0;
+            }
+        }
+    }
+}

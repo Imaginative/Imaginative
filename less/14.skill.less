@@ -1,0 +1,48 @@
+
+
+/* 14.   Skill
+--------------------------------------------------------------------------------*/
+.our-skill {
+    .our-skill-content {
+        padding: 75px;
+    }
+}
+.skill-progress {
+    margin: 0;
+    li {
+        margin: 0;
+        list-style: none;
+        padding: 20px 0;
+    }
+    .sp-title {
+        font-family: @ra;
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+        line-height: 1.6em;
+        letter-spacing: 0.01em;
+    }
+    .skillbar {
+        position: relative;
+        width: 100%; height: 7px;
+        .rounded(7px);
+        background-color: #272727;
+        .skillbar-inner {
+            position: absolute;
+            width: 0;
+            height: 100%;
+            top: 0; left: 0;
+            background-color: @color;
+            .rounded(7px);
+            text-align: right;
+            .percent {
+                position: absolute;
+                right: 0; top: -15px;
+                font-family: @ra;
+                font-size: 14px;
+                color: #fff;
+                .translateY(-100%);
+            }
+        }
+    }
+}

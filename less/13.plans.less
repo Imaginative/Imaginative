@@ -1,0 +1,83 @@
+
+/* 13.   Plans
+--------------------------------------------------------------------------------*/
+
+.our-plans {
+    background-color: #ebebeb;
+    .row {
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    [class^="col-"] {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+.plans-item {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    margin: 100px 0;
+    z-index: 1;
+    &.item-big {
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%; height: 100%;
+            background-color: #fff;
+            z-index: -1;
+            border: 10px solid #fff;
+            border-top-width: 30px;
+            border-bottom-width: 30px;
+            left: -10px; top: -30px;
+            -webkit-box-sizing: content-box;
+               -moz-box-sizing: content-box;
+                    box-sizing: content-box;
+        }
+    }
+    .prices {
+        padding-bottom: 20px;
+        .sup {
+            font-family: @ra;
+            font-weight: 700;
+            font-size: 30px;
+            color: @color;
+            vertical-align: 0.5em;
+        }
+        .price {
+            font-family: @ra;
+            font-weight: 700;
+            font-size: 80px;
+            color: @color;
+        }
+        .per {
+            display: block;
+            font-size: 16px;
+            font-style: italic;
+            color: #a1a1a1;
+            padding: 8px 0;
+        }
+    }
+    .plans-body {
+        padding: 20px 0;
+        border-top: 1px solid #ebebeb;
+        ul {
+            margin: 0;
+            li {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                .plans-list {
+                    display: block;
+                    font-family: @ra;
+                    font-size: 14px;
+                    color: #191919;
+                    line-height: 1.6em;
+                    padding: 8px 0;
+                }
+            }
+        }
+    }
+}

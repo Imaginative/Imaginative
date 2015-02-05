@@ -1,0 +1,219 @@
+
+/* 11.   Team
+--------------------------------------------------------------------------------*/
+
+.our-team {
+    padding-top: 45px;
+}
+.team-slider {
+    margin-top: 50px;
+    .owl-buttons {
+        > div {
+            position: absolute;
+            margin: auto;
+            top: 0; bottom: 0;
+            height: 35px;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 999;
+            .fa {
+                font-size: 20px;
+                width: 35px; height: 35px;
+                background-color: #000;
+                color: #fff;
+                line-height: 33px;
+                text-align: center;
+                .transition(all, .3s, ease);
+                &:hover {
+                    background-color: @color;
+                }
+            }
+        }
+        .owl-prev {
+            left: -20px;
+        }
+        .owl-next {
+            right: -20px;
+        }
+    }
+    &:hover {
+        .owl-buttons {
+            > div {
+                opacity: 1;
+                visibility: visible;
+            }
+            .owl-prev {
+                left: 0;
+            }
+            .owl-next {
+                right: 0;
+            }
+        }
+    }
+}
+.team-header {
+    position: relative;
+    z-index: 9;
+    + .team-slider {
+        margin-top: 0;
+    }
+    .row {
+        margin: 0;
+    }
+    [class^="col-"] {
+        padding: 0;
+    }
+}
+.team-header-content {
+    background-color: @color;
+    overflow: hidden;
+    padding: 65px;
+    .road-title {
+        .title, .sub-title {
+            color: #fff;
+        }
+        .r-line {
+            border-color: #fff;
+        }
+    }
+    .description {
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+    p {
+        color: #fff;
+    }
+}
+.team-item {
+    position: relative;
+    overflow: hidden;
+    img {
+        width: 100%;
+        .transition(all, .4s, ease);
+        -webkit-transform-origin: 50% 100%;
+        -moz-transform-origin: 50% 100%;
+        -ms-transform-origin: 50% 100%;
+        -o-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+    .team-content {
+        position: absolute;
+        width: 100%; height: 100%;
+        background-color: rgba(255,255,255,.8);
+        z-index: 9;
+        top: 0; left: 0;
+        .transition(all, .4s, ease);
+        .inner {
+            position: absolute;
+            top: 50%; left: 0;
+            width: 100%;
+            .translateY(-50%);
+            padding: 25px 50px;
+        }
+        h4 {
+            color: @color;
+        }
+        em {
+            font-size: 12px;
+            color: #949494;
+        }
+        p {
+            margin: 20px 0;
+        }
+        .social {
+            margin-top: 20px;
+            a {
+                display: inline-block;
+                font-size: 15px;
+                color: #000;
+                margin: 4px 10px;
+                &:hover {
+                    color: @color;
+                }
+            }
+        }
+    }
+}
+
+.team-item.md-anim-fade {
+    .team-content {
+        opacity: 0;
+    }
+    &:hover {
+        .team-content {
+            opacity: 1;
+        }
+    }
+}
+
+.team-item.md-anim-zoomSlideUp {
+    .team-content {
+        .translateY(60%);
+        opacity: 0;
+    }
+    &:hover {
+        .team-content {
+            .translateY(0);
+            opacity: 1;
+        }
+    }
+}
+
+.team-item.md-anim-zoom {
+    .team-content {
+        opacity: 0;
+        .scale(.5);
+    }
+    &:hover {
+        .team-content {
+            opacity: 1;
+            .scale(1);
+        }
+    }
+}
+
+.team-item.md-anim-zoomSlideDown {
+    .team-content {
+        .translateY(-100%);
+    }
+    &:hover {
+        .team-content {
+            .translateY(0);
+            opacity: 1;
+        }
+        img {
+            -webkit-transform: translateY(10px);
+               -moz-transform: translateY(10px);
+                -ms-transform: translateY(10px);
+                 -o-transform: translateY(10px);
+                    transform: translateY(10px);
+        }
+    }
+}
+.team-item.team-item-mobile {
+    .team-content {
+        height: auto;
+        top: auto; bottom: 0;
+        opacity: 1 !important;
+        -webkit-transform: translate(0) scale(1) !important;
+           -moz-transform: translate(0) scale(1) !important;
+            -ms-transform: translate(0) scale(1) !important;
+             -o-transform: translate(0) scale(1) !important;
+                transform: translate(0) scale(1) !important;
+        .inner {
+            position: static;
+            padding: 10px;
+            -webkit-transform: translate(0);
+               -moz-transform: translate(0);
+                -ms-transform: translate(0);
+                 -o-transform: translate(0);
+                    transform: translate(0);
+        }
+        p {
+            display: none;
+        }
+        .social {
+            margin-top: 10px;
+        }
+    }
+}

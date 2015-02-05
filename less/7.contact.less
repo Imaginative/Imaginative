@@ -1,0 +1,102 @@
+
+/* 7.   Contact
+--------------------------------------------------------------------------------*/
+.contact-content {
+    position: relative;
+    padding: 45px 0;
+    margin-top: 60px;
+    .bg-contact {
+        background-image: url('../images/bg/bg-4.jpg');
+    }
+    .address {
+        position: relative;
+        max-width: 466px;
+        padding: 50px;
+        margin: auto;
+        background-color: rgba(255,255,255,.8);
+        z-index: 9;
+        .phone {
+            .icon {
+                width: 71px; height: 71px;
+                border: 3px solid @color;
+                .rounded(50%);
+                text-align: center;
+                line-height: 65px;
+                font-size: 30px;
+                color: @color;
+            }
+            p {
+                font-weight: 800;
+                margin-top: 18px;
+            }
+        }
+        .location {
+            margin-top: 16px;
+            .icon {
+                font-size: 20px;
+                color: @color;
+            }
+            p {
+                font-family: @ra;
+                font-weight: 600;
+                font-size: 13px;
+                color: #000;
+                line-height: 1.6em;
+                letter-spacing: 1px;
+                margin-top: 18px;
+            }
+        }
+        .email {
+            margin-top: 16px;
+            .icon {
+                font-size: 20px;
+                color: @color;
+            }
+            a {
+                display: block;
+                font-family: @ra;
+                font-weight: 600;
+                font-size: 13px;
+                color: #000;
+                line-height: 1.6em;
+                letter-spacing: 1px;
+                margin-top: 18px;
+            }
+        }
+    }
+}
+/* Map */
+#map {
+    width: 100%;
+    height: 297px;
+    img {
+        width: auto;
+        max-width: none;
+    }
+}
+
+.contact-form {
+    padding-bottom: 80px;
+    h3 {
+        font-family: @ra;
+        font-size: 24px;
+        font-weight: 800;
+        color: #000;
+        line-height: 1.4em;
+    }
+    .r-line {
+        margin-top: 10px;
+    }
+    .form-submit {
+        margin-top: 64px - 10px;
+        .md-btn {
+        }
+    }
+    .form-item {
+        label {
+            font-weight: 400;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    }
+}

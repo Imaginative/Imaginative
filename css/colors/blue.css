@@ -1,0 +1,190 @@
+/* COLOR */
+.r-title .inner h2,
+.md-btn.md-btn-1.btn-style-2.md-btn-1:hover a,
+.md-btn.md-btn-1.btn-style-2.md-btn-1:hover input,
+.md-btn.md-btn-1.btn-style-2.md-btn-1:hover button,
+.md-btn.md-btn-2.btn-style-2.md-btn-2:hover a,
+.md-btn.md-btn-2.btn-style-2.md-btn-2:hover input,
+.md-btn.md-btn-2.btn-style-2.md-btn-2:hover button,
+.md-btn.md-btn-4.btn-style-2.md-btn-4:hover a,
+.md-btn.md-btn-4.btn-style-2.md-btn-4:hover input,
+.md-btn.md-btn-4.btn-style-2.md-btn-4:hover button,
+.md-btn.md-btn-3.btn-style-2.md-btn-3 a,
+.md-btn.md-btn-3.btn-style-2.md-btn-3 input,
+.md-btn.md-btn-3.btn-style-2.md-btn-3 button,
+.md-btn.md-btn-5.btn-style-2.md-btn-5:hover a,
+.md-btn.md-btn-5.btn-style-2.md-btn-5:hover input,
+.md-btn.md-btn-5.btn-style-2.md-btn-5:hover button,
+.md-btn.md-btn-6.btn-style-2.md-btn-6:hover a,
+.md-btn.md-btn-6.btn-style-2.md-btn-6:hover input,
+.md-btn.md-btn-6.btn-style-2.md-btn-6:hover button,
+.md-btn.md-btn-8:hover a,
+.md-btn.md-btn-8:hover input,
+.md-btn.md-btn-8:hover button,
+.banner-content h1 span,
+.home-content h1,
+.typer,
+.contact-content .address .phone .icon,
+.contact-content .address .location .icon,
+.contact-content .address .email .icon,
+.work-item .caption .inner em,
+.work-loadmore a:hover,
+.single-project .sidebar .client a:hover,
+.single-project .sidebar .what_we_did ul li .fa:hover,
+.single-project .sidebar .what_we_did ul li:hover a,
+.single-project .sidebar .widget_categories ul li a:hover,
+.about-item .icon,
+.about-item .fa,
+.team-item .team-content h4,
+.team-item .team-content .social a:hover,
+.plans-item .prices .sup,
+.plans-item .prices .price,
+.shop-cart .cart-toggle .icon,
+.product-item .product-item-body h4 a:hover,
+.shop-cart .view-shop-cart-block .view-content .item-cart-title a:hover,
+.pagination li a:hover,
+.blockquote .icon,
+.widget ul li:hover a,
+.author_post a:hover,
+.author_post time,
+.share_this a:hover,
+.tagcloud a:hover,
+.page-share .toggle-share,
+.page-share .shares .icon,
+#comments .commentlist .comment a:hover,
+#comments .commentlist .comment .reply a,
+.scroll-top .icon:hover,
+.ft-social a:hover .icon,
+.post h1 a:hover, .post h2 a:hover,
+.r-btn:hover {
+    color: #0099E6;
+}
+.md-btn.md-btn-8:hover a,
+.md-btn.md-btn-8:hover input,
+.md-btn.md-btn-8:hover button,
+.md-btn.md-btn-4:hover a,
+.md-btn.md-btn-4:hover input,
+.md-btn.md-btn-4:hover button,
+.md-btn.md-btn-5:hover a,
+.md-btn.md-btn-5:hover input,
+.md-btn.md-btn-5:hover button,
+.md-btn.md-btn-2:hover a,
+.md-btn.md-btn-2:hover input,
+.md-btn.md-btn-2:hover button,
+.md-btn.md-btn-6:hover a,
+.md-btn.md-btn-6:hover input,
+.md-btn.md-btn-6:hover button,
+.md-btn.md-btn-1:hover a,
+.md-btn.md-btn-1:hover input,
+.md-btn.md-btn-1:hover button,
+.md-btn.md-btn-3 a,
+.md-btn.md-btn-3 input,
+.md-btn.md-btn-3 button,
+.commerce-cart .form-actions input:hover,
+.checkout-buttons input:hover,
+.product-detail-content form .form-submit:hover,
+.test-slider .owl-controls .owl-pagination .owl-page.active span,
+.what-we-do-slider .owl-controls .owl-pagination .owl-page.active span,
+.blockquote,
+.widget ul li:hover:after,
+.page-share .toggle-share:after,
+.contact-content .address .phone .icon {
+    border-color: #0099E6;
+}
+.md-btn.md-btn-2:hover,
+.md-btn.md-btn-5:after,
+.md-btn.md-btn-4:after,
+.md-btn.md-btn-6:after,
+.owl-carousel .owl-buttons .fa:hover,
+.owl-carousel .owl-buttons > div .fa:hover,
+.bx-wrapper .bx-controls-direction .fa:hover,
+.open-nav span,
+.open-nav:before,
+.open-nav:after,
+.typer span:after,
+.navigation.nav-fullscreen,
+.navigation.nav-right .bg-nav,
+.navigation.nav-right.nav-anim .navigation-inner,
+.navigation.nav-left .navigation-inner,
+.navigation.nav-top .navigation-inner,
+.navigation.nav-top .navigation-inner .nav .sub-menu,
+.scroll-down .icon:after,
+.r-scroll-down .icon:after,
+.testimonial .tit-icon .fa,
+.team-slider .owl-buttons > div .fa:hover,
+.team-header-content,
+.skill-progress .skillbar .skillbar-inner,
+.shop-cart .cart-toggle .quantitycart,
+.commerce-cart .form-actions input:hover,
+.checkout-buttons input:hover,
+html .awe-color,
+.product-detail-content form .form-submit:hover,
+.product-detail-content .product_meta .field-label a:hover,
+.product-detail-content .product_meta .field-items a:hover,
+.product-detail-content .product_meta .field-item a:hover,
+.post .post-media .icon,
+.post .post-media .fa,
+.post .post-media h1 a:hover,
+.post .post-media h2 a:hover,
+.onsale {
+  background-color: #0099E6;
+ }
+
+.ft-social a:hover:before {
+  border-right-color: #0099E6;
+  border-top-color: #0099E6;
+}
+.ft-social a:hover:after {
+  border-left-color: #0099E6;
+  border-bottom-color: #0099E6;
+}
+
+::-moz-selection {
+  background-color: #0099E6;
+}
+::selection {
+  background-color: #0099E6;
+}
+#ascrail2000 > div,
+#qLoverlay #qLbar {
+  background-color: #0099E6 !important;
+}
+.typer span,
+#qLoverlay #qLpercentage {
+  color: #0099E6 !important;
+}
+.md-btn.md-btn-1,
+.md-btn.md-btn-3:hover {
+    -webkit-box-shadow: inset 0 0 0 #0099E6;
+    -moz-box-shadow: inset 0 0 0 #0099E6;
+    box-shadow: inset 0 0 0 #0099E6;
+}
+.md-btn.md-btn-1:hover {
+    -webkit-box-shadow: inset 0 35px 0 #0099E6;
+    -moz-box-shadow: inset 0 35px 0 #0099E6;
+    box-shadow: inset 0 35px 0 #0099E6;
+}
+.md-btn.md-btn-3 {
+    -webkit-box-shadow: inset 0 -35px 0 #0099E6;
+    -moz-box-shadow: inset 0 -35px 0 #0099E6;
+    box-shadow: inset 0 -35px 0 #0099E6;
+}
+
+.md-btn.md-btn-7 a,
+.md-btn.md-btn-7 input,
+.md-btn.md-btn-7 button {
+    -webkit-text-shadow: 0 35px 0 #0099E6, 0 0 0 #000;
+    -moz-text-shadow: 0 35px 0 #0099E6, 0 0 0 #000;
+    text-shadow: 0 35px 0 #0099E6, 0 0 0 #000;
+}
+.md-btn.md-btn-7:hover a,
+.md-btn.md-btn-7:hover input,
+.md-btn.md-btn-7:hover button {
+    -webkit-text-shadow: 0 0 0 #0099E6, 0 -35px 0 #000;
+    -moz-text-shadow: 0 0 0 #0099E6, 0 -35px 0 #000;
+    text-shadow: 0 0 0 #0099E6, 0 -35px 0 #000;
+    border-color: #0099E6;
+}
+
+
+/* END COLOR */

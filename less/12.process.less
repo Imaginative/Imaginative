@@ -1,0 +1,54 @@
+
+/* 12.   Process
+--------------------------------------------------------------------------------*/
+
+.iterative-process {
+    position: relative;
+    padding: 65px 0;
+    overflow: hidden;
+    .road-title {
+        h3, p {
+            color: #fff;
+        }
+        .r-line {
+            border-color: #fff;
+        }
+    }
+}
+
+.iterative-process-content {
+    margin-top: 50px;
+    .item {
+        position: relative;
+        padding: 40px 0;
+        .icon {
+            color: #fff;
+            font-size: 90px;
+        }
+        h4 {
+            color: #fff;
+            margin-top: 40px;
+            margin-bottom: 0;
+        }
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 45%; height: 0;
+            border-top: 1px solid #fff;
+            margin: auto;
+            top: 0; bottom: 0;
+            right: 0;
+            .translateX(50%);
+        }
+    }
+    [class^="col-"] {
+        &:last-child {
+            .item {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}

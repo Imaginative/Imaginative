@@ -1,0 +1,127 @@
+
+/* 17.   Cart
+--------------------------------------------------------------------------------*/
+
+.table-cart {
+    width: 100%;
+    border: 1px solid #efefef;
+    .views-field-quantity,
+    .views-field-commerce-unit-price,
+    .views-field-commerce-total {
+        text-align: center;
+    }
+    .views-field-line-item-title {
+        .img-thumb {
+            position: absolute;
+            width: 40px; height: 40px;
+            overflow: hidden;
+            margin: auto;
+            top: 0; bottom: 0; left: 15px;
+        }
+        span {
+            color: #000;
+        }
+    }
+    .views-field-edit-delete {
+        width: 150px;
+        text-align: center;
+        input {
+            width: 16px; height: 16px;
+            border: 0;
+            background: none;
+            font-family: @ra;
+            font-size: 0;
+            background: url('../images/close.png') no-repeat center center;
+            background-size: 10px;
+        }
+    }
+    .form-item {
+        input {
+            width: 80px; height: 40px;
+            padding: 0 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+    }
+    .views-field-commerce-unit-price {
+        font-size: 14px;
+    }
+    thead {
+        background-color: #efefef;
+        tr {
+            th {
+                vertical-align: middle;
+                font-family: @ra;
+                font-size: 16px;
+                color: #000;
+                padding: 15px;
+            }
+        }
+    }
+    tbody {
+        tr {
+            td {
+                position: relative;
+                padding: 20px 15px;
+                vertical-align: middle;
+                font-family: @ra;
+                font-size: 13px;
+                color: #000;
+                border-bottom: 1px solid #efefef;
+            }
+            .views-field-line-item-title {
+                padding-left: 90px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+
+.commerce-cart {
+    .line-item-total {
+        font-size: 20px;
+        color: #000;
+        padding: 20px;
+    }
+    .form-actions {
+        text-align: right;
+        input {
+            display: inline-block;
+            font-size: 11px;
+            color: #000;
+            text-align: center;
+            height: 35px;
+            line-height: 35px;
+            background: none;
+            cursor: pointer;
+            outline: none;
+            overflow: hidden;
+            border: 2px solid #000;
+            padding: 0 26px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 5px;
+            .transition(all, .3s, ease);
+            &:hover {
+                color: #fff;
+                background-color: @color;
+                border-color: @color;
+            }
+        }
+    }
+
+}
+.price {
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    del {
+        font-weight: 400;
+        margin-right: 10px;
+    }
+    ins {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,222 @@
+
+/* 3.   Header and banner
+--------------------------------------------------------------------------------*/
+header#header {
+    position: absolute;
+    z-index: 9999;
+    margin: auto;
+    top: 0;
+    left: 0; right: 0;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+header {
+    &#header {
+        &.header-fixed {
+            position: fixed;
+            margin: 0 auto;
+            top: 20px; left: 20px; right: 20px;
+            .logo {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}
+.page-boxed {
+    header {
+        &#header {
+            &.header-fixed {
+                max-width: 1210px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+.page-share {
+    position: absolute;
+    top: 50%; left: 20px;
+    .translateY(-50%);
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .toggle-share {
+        position: relative;
+        float: left;
+        font-family: @ra;
+        font-weight: 900;
+        font-size: 14px;
+        color: @color;
+        width: 29px; height: 29px;
+        text-align: center;
+        line-height: 29px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        z-index: 9;
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%; height: 100%;
+            border: 2px solid @color;
+            margin: auto;
+            top: 0; right: 0;
+            bottom: 0; left: 0;
+            .transition(all, .3s, ease);
+        }
+        &.toggle-share-anim {
+            &:after {
+                .rotation(135deg);
+            }
+        }
+    }
+    .shares {
+        float: left;
+        .translateX(-30%);
+        opacity: 0;
+        visibility: hidden;
+        .transition(all, .3s, ease);
+        a {
+            float: left;
+            display: inline-block;
+            margin: 0 5px;
+        }
+        .icon {
+            width: 29px; height: 29px;
+            line-height: 29px;
+            text-align: center;
+            font-size: 13px;
+            color: @color;
+            .transition(all, .3s, ease);
+        }
+        &.shares-anim {
+            .translateX(10px);
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    &.page-share-dark {
+        .toggle-share {
+            color: #000 !important;
+            &:after {
+                border-color: #000 !important;
+            }
+        }
+        .shares {
+            .icon {
+                color: #000 !important;
+            }
+        }
+    }
+}
+
+.open-nav {
+    position: absolute;
+    display: inline-block;
+    font-size: 0;
+    width: 22px; height: 14px;
+    margin: auto;
+    top: 0; bottom: 0; right: 20px;
+    span {
+        position: absolute;
+        display: inline-block;
+        width: 100%; height: 2px;
+        background-color: @color;
+        margin: auto;
+        top: 0; bottom: 0; left: 0;
+    }
+    &:before, &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%; height: 2px;
+        background-color: @color;
+        left: 0;
+    }
+    &:before {
+        top: 0;
+    }
+    &:after {
+        bottom: 0;
+    }
+    &.open-nav-dark {
+        span {
+            background-color: #000 !important;
+        }
+        &:before, &:after {
+            background-color: #000 !important;
+        }
+    }
+}
+
+html .banner {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.banner-content {
+    position: absolute;
+    display: table;
+    top: 50%; left: 0;
+    width: 100%;
+    text-align: center;
+    .translateY(-50%);
+    z-index: 999;
+    h1 {
+        span {
+            color: @color;
+        }
+    }
+    &.banner-content-fix {
+        width: auto;
+        left: 50%;
+        .translate(-50%, -50%);
+    }
+}
+
+.typer {
+    color: @color;
+}
+.typer span {
+    position: relative;
+    z-index: 1;
+    color: @color !important;
+    background-color: transparent !important;
+    &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%; height: 100%;
+        top: 0; right: 0;
+        background-color: @color;
+        opacity: 0.4;
+    }
+}
+
+.home-content {
+    display: table-cell;
+    vertical-align: bottom;
+    width: 233px; height: 233px;
+    border: 5px solid #000;
+    margin: auto;
+    text-align: left;
+    padding: 12px;
+    h2 {
+        line-height: 1.2em;
+        margin: 0;
+    }
+    h1 {
+        display: inline;
+        line-height: .8em;
+        color: @color;
+        margin: 0;
+    }
+}
